@@ -61,7 +61,7 @@ I would say try not to judge the UI/UX too harshly, as this was done in a limite
 
 ## Room for improvement
 - It goes without saying the UI/UX could be improved.
-- The frontend should be responsive.
+- The frontend should be responsive. I used Bootstrap for the UI, so it's simply a matter of adding the appropriate classes. But frankly, I didn't have the time to do it.
 - Also, there should be tests for both the frontend and backend.
 - There should be an end-to-end encryption for the websocket connection.
 - There should be authentication between the frontend and backend.
