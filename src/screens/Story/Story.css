@@ -1,0 +1,36 @@
+.story-screen {
+    height: 600px;
+}
+
+.sentence-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 88%;
+}
+
+.sentence-roll {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    max-height: 100%;
+    overflow-y: scroll;
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+    margin: 0 0 20px;
+}
+
+.sentence-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.sentence-form>div {
+    display: flex;
+    flex: 1 1 auto;
+    min-width: 0;
+    gap: 10px;
+    align-items: center;
+}

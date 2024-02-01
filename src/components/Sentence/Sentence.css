@@ -1,0 +1,23 @@
+.sentence {
+    align-self: flex-start;
+    width: 100%;
+    background-color: #f5fbef;
+    border: 1px solid #c7e2c9;
+    padding: 4px;
+    margin: 5px 0;
+}
+
+.sentence-username {
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+}
+
+.sentence-self {
+    background-color: #5db9d7;
+    border: 1px solid #1288b9;
+}
+
+.sentence-content {
+    font-size: 15px;
+}

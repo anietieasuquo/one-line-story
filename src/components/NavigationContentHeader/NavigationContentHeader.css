@@ -1,0 +1,19 @@
+.navigation-content-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-content: center;
+    align-self: flex-start;
+    padding: 0 0 10px;
+    border-bottom: 3px solid #e6e6e6;
+}
+
+.navigation-loader {
+    margin: 0 0 1em;
+}
+
+.navigation-loader p {
+    padding: 0;
+    margin: 0;
+}
