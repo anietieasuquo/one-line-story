@@ -12,7 +12,7 @@ story in unexpected ways.
 <br>
 Despite being a minimal implementation, it's still a full-stack application with a React/Redux frontend and a Node.js backend.
 <br>
-I would say try not to judge the UI/UX too harshly, as this was done in a limited time. Realistically speaking, in a real-world scenario much would be done differently.
+I would say try not to judge the UI/UX too harshly, as this was done in a limited time. In a real-world scenario a lot of things would be done differently.
 <br>
 
 ## User stories
@@ -52,11 +52,11 @@ I would say try not to judge the UI/UX too harshly, as this was done in a limite
 ## Note
 - The frontend app will run on port `5173` by default. While the backend server will run on port `8080`.
 - If the backend app is restarted all data will be lost. This is because the data is stored in memory and not persisted to a database.
-- If `yarn` fails on your environment, `npm` can be used instead, and is tried by the run script.
+- If `yarn` fails on your environment, `npm` can be used instead, and is used by the run script.
 - The frontend app will automatically refresh when changes are made to the code. However, the backend app will need to be restarted manually.
 - The username required to use the app is only for the purpose of identifying players.
+- A player is not allowed to submit consecutive lines. This is to prevent spam, and also to allow other players to participate.
 - It's important to note that like any engineering task, there are many ways to implement this game.
-- A player is not allowed to submit consecutive lines. This is to prevent spam, and also to allow other players to participate. Don't read too much into it, it's just house rules and should be checked with a product/project manager in a real-world scenario.
 - Most design decisions were made in the interest of time.
 
 ## Room for improvement
